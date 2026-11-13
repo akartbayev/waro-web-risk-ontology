@@ -1,0 +1,451 @@
+{
+ "ref": [
+  {
+   "name": "RA1 (PHP content portal)",
+   "comps": 8,
+   "findings": 122,
+   "cves": 122,
+   "triples": 3684,
+   "time": 8.08713960647583,
+   "time1": 5.266266107559204,
+   "edges": 712,
+   "pairs": 642,
+   "by": {
+    "pattern": 225,
+    "pivot": 370,
+    "weakness": 94,
+    "privilege": 23
+   },
+   "equal": true,
+   "takeover_equal": true,
+   "exposed": [
+    "h_app",
+    "h_edge"
+   ],
+   "entry": 41,
+   "foothold": 9,
+   "n_cwe": 67,
+   "n_capec": 216,
+   "n_ind": 550
+  },
+  {
+   "name": "RA2 (Java enterprise service)",
+   "comps": 11,
+   "findings": 70,
+   "cves": 68,
+   "triples": 2894,
+   "time": 7.927423715591431,
+   "time1": 5.216850519180298,
+   "edges": 941,
+   "pairs": 807,
+   "by": {
+    "pivot": 498,
+    "pattern": 329,
+    "privilege": 24,
+    "weakness": 90
+   },
+   "equal": true,
+   "takeover_equal": true,
+   "exposed": [
+    "h_admin",
+    "h_app",
+    "h_edge"
+   ],
+   "entry": 49,
+   "foothold": 23,
+   "n_cwe": 58,
+   "n_capec": 226,
+   "n_ind": 452
+  },
+  {
+   "name": "RA3 (Node.js headless CMS)",
+   "comps": 9,
+   "findings": 85,
+   "cves": 84,
+   "triples": 3235,
+   "time": 8.03854775428772,
+   "time1": 5.05612325668335,
+   "edges": 1205,
+   "pairs": 1091,
+   "by": {
+    "pattern": 739,
+    "weakness": 88,
+    "pivot": 331,
+    "privilege": 47
+   },
+   "equal": true,
+   "takeover_equal": true,
+   "exposed": [
+    "h_app",
+    "h_edge"
+   ],
+   "entry": 52,
+   "foothold": 19,
+   "n_cwe": 72,
+   "n_capec": 238,
+   "n_ind": 505
+  }
+ ],
+ "scal": [
+  {
+   "findings": 75,
+   "triples": 3012,
+   "time": 9.054105520248413,
+   "time1": 5.753750562667847,
+   "edges": 962,
+   "equal": true,
+   "tpy": 0.008651494979858398
+  },
+  {
+   "findings": 109,
+   "triples": 3799,
+   "time": 12.417624950408936,
+   "time1": 7.268237590789795,
+   "edges": 2866,
+   "equal": true,
+   "tpy": 0.01925182342529297
+  },
+  {
+   "findings": 72,
+   "triples": 2917,
+   "time": 8.655514478683472,
+   "time1": 4.8543031215667725,
+   "edges": 1290,
+   "equal": true,
+   "tpy": 0.009347200393676758
+  },
+  {
+   "findings": 53,
+   "triples": 2576,
+   "time": 7.0306315422058105,
+   "time1": 4.162510633468628,
+   "edges": 399,
+   "equal": true,
+   "tpy": 0.004573345184326172
+  },
+  {
+   "findings": 89,
+   "triples": 3089,
+   "time": 8.077801704406738,
+   "time1": 4.519551038742065,
+   "edges": 1248,
+   "equal": true,
+   "tpy": 0.011564970016479492
+  },
+  {
+   "findings": 85,
+   "triples": 2469,
+   "time": 5.6169421672821045,
+   "time1": 3.537524700164795,
+   "edges": 110,
+   "equal": true,
+   "tpy": 0.005391120910644531
+  },
+  {
+   "findings": 207,
+   "triples": 5177,
+   "time": 26.8834867477417,
+   "time1": 20.737465143203735,
+   "edges": 3777,
+   "equal": true,
+   "tpy": 0.05990433692932129
+  },
+  {
+   "findings": 65,
+   "triples": 2652,
+   "time": 7.410556793212891,
+   "time1": 4.357113599777222,
+   "edges": 1056,
+   "equal": true,
+   "tpy": 0.00594329833984375
+  },
+  {
+   "findings": 30,
+   "triples": 1829,
+   "time": 4.217966556549072,
+   "time1": 2.33552885055542,
+   "edges": 101,
+   "equal": true,
+   "tpy": 0.0014808177947998047
+  },
+  {
+   "findings": 42,
+   "triples": 2207,
+   "time": 6.083625555038452,
+   "time1": 3.3016750812530518,
+   "edges": 470,
+   "equal": true,
+   "tpy": 0.0037806034088134766
+  },
+  {
+   "findings": 76,
+   "triples": 3078,
+   "time": 9.483497619628906,
+   "time1": 5.70330023765564,
+   "edges": 946,
+   "equal": true,
+   "tpy": 0.009749889373779297
+  },
+  {
+   "findings": 163,
+   "triples": 4419,
+   "time": 16.19801139831543,
+   "time1": 10.989901304244995,
+   "edges": 2699,
+   "equal": true,
+   "tpy": 0.0377507209777832
+  },
+  {
+   "findings": 33,
+   "triples": 1796,
+   "time": 4.806924343109131,
+   "time1": 2.4730560779571533,
+   "edges": 512,
+   "equal": true,
+   "tpy": 0.002942800521850586
+  },
+  {
+   "findings": 32,
+   "triples": 1956,
+   "time": 4.726790904998779,
+   "time1": 2.5155997276306152,
+   "edges": 223,
+   "equal": true,
+   "tpy": 0.0019087791442871094
+  },
+  {
+   "findings": 87,
+   "triples": 3220,
+   "time": 9.780511856079102,
+   "time1": 6.082217454910278,
+   "edges": 1774,
+   "equal": true,
+   "tpy": 0.013441801071166992
+  },
+  {
+   "findings": 29,
+   "triples": 1828,
+   "time": 4.622815847396851,
+   "time1": 2.7579424381256104,
+   "edges": 234,
+   "equal": true,
+   "tpy": 0.0015454292297363281
+  },
+  {
+   "findings": 42,
+   "triples": 2257,
+   "time": 5.80070686340332,
+   "time1": 3.4956212043762207,
+   "edges": 621,
+   "equal": true,
+   "tpy": 0.0029387474060058594
+  },
+  {
+   "findings": 66,
+   "triples": 2775,
+   "time": 7.6674158573150635,
+   "time1": 4.6443750858306885,
+   "edges": 668,
+   "equal": true,
+   "tpy": 0.006536006927490234
+  },
+  {
+   "findings": 105,
+   "triples": 3676,
+   "time": 11.74498987197876,
+   "time1": 6.875236511230469,
+   "edges": 2444,
+   "equal": true,
+   "tpy": 0.025885820388793945
+  },
+  {
+   "findings": 105,
+   "triples": 3035,
+   "time": 8.269424200057983,
+   "time1": 5.287654399871826,
+   "edges": 1206,
+   "equal": true,
+   "tpy": 0.012119770050048828
+  },
+  {
+   "findings": 84,
+   "triples": 3327,
+   "time": 10.266789674758911,
+   "time1": 6.133212089538574,
+   "edges": 1042,
+   "equal": true,
+   "tpy": 0.017204999923706055
+  },
+  {
+   "findings": 209,
+   "triples": 5042,
+   "time": 23.187196493148804,
+   "time1": 14.676977396011353,
+   "edges": 4744,
+   "equal": true,
+   "tpy": 0.05121445655822754
+  },
+  {
+   "findings": 56,
+   "triples": 2609,
+   "time": 13.142666101455688,
+   "time1": 7.635812759399414,
+   "edges": 366,
+   "equal": true,
+   "tpy": 0.008811235427856445
+  },
+  {
+   "findings": 106,
+   "triples": 3538,
+   "time": 14.62281608581543,
+   "time1": 11.373987913131714,
+   "edges": 1280,
+   "equal": true,
+   "tpy": 0.024732351303100586
+  },
+  {
+   "findings": 106,
+   "triples": 3327,
+   "time": 7.794537782669067,
+   "time1": 5.275015115737915,
+   "edges": 747,
+   "equal": true,
+   "tpy": 0.010742902755737305
+  },
+  {
+   "findings": 60,
+   "triples": 2687,
+   "time": 7.104803562164307,
+   "time1": 4.429213523864746,
+   "edges": 585,
+   "equal": true,
+   "tpy": 0.010985374450683594
+  },
+  {
+   "findings": 79,
+   "triples": 3086,
+   "time": 10.526742458343506,
+   "time1": 5.350033760070801,
+   "edges": 1268,
+   "equal": true,
+   "tpy": 0.011565685272216797
+  },
+  {
+   "findings": 62,
+   "triples": 2737,
+   "time": 10.56557846069336,
+   "time1": 7.736618280410767,
+   "edges": 816,
+   "equal": true,
+   "tpy": 0.009176492691040039
+  },
+  {
+   "findings": 132,
+   "triples": 4138,
+   "time": 15.83014464378357,
+   "time1": 9.738893747329712,
+   "edges": 4211,
+   "equal": true,
+   "tpy": 0.031222105026245117
+  },
+  {
+   "findings": 80,
+   "triples": 3213,
+   "time": 9.723020315170288,
+   "time1": 5.416115760803223,
+   "edges": 1383,
+   "equal": true,
+   "tpy": 0.01388096809387207
+  },
+  {
+   "findings": 67,
+   "triples": 2603,
+   "time": 8.359976768493652,
+   "time1": 5.323221206665039,
+   "edges": 840,
+   "equal": true,
+   "tpy": 0.008633136749267578
+  },
+  {
+   "findings": 149,
+   "triples": 4107,
+   "time": 15.18617057800293,
+   "time1": 10.929039001464844,
+   "edges": 1980,
+   "equal": true,
+   "tpy": 0.034558773040771484
+  },
+  {
+   "findings": 117,
+   "triples": 3650,
+   "time": 9.827382564544678,
+   "time1": 6.775001049041748,
+   "edges": 934,
+   "equal": true,
+   "tpy": 0.013277053833007812
+  },
+  {
+   "findings": 53,
+   "triples": 2560,
+   "time": 6.665869951248169,
+   "time1": 4.217035531997681,
+   "edges": 282,
+   "equal": true,
+   "tpy": 0.003647327423095703
+  },
+  {
+   "findings": 72,
+   "triples": 2859,
+   "time": 8.368301630020142,
+   "time1": 4.807029962539673,
+   "edges": 1370,
+   "equal": true,
+   "tpy": 0.009051322937011719
+  },
+  {
+   "findings": 54,
+   "triples": 2542,
+   "time": 5.826916456222534,
+   "time1": 3.46484112739563,
+   "edges": 300,
+   "equal": true,
+   "tpy": 0.004179239273071289
+  },
+  {
+   "findings": 94,
+   "triples": 3347,
+   "time": 11.507936239242554,
+   "time1": 6.482282638549805,
+   "edges": 2392,
+   "equal": true,
+   "tpy": 0.014189481735229492
+  },
+  {
+   "findings": 74,
+   "triples": 2966,
+   "time": 8.989956617355347,
+   "time1": 5.749327182769775,
+   "edges": 1122,
+   "equal": true,
+   "tpy": 0.00822305679321289
+  },
+  {
+   "findings": 70,
+   "triples": 2996,
+   "time": 8.247625827789307,
+   "time1": 4.953293800354004,
+   "edges": 824,
+   "equal": true,
+   "tpy": 0.007948160171508789
+  },
+  {
+   "findings": 53,
+   "triples": 2479,
+   "time": 6.321305990219116,
+   "time1": 3.8311033248901367,
+   "edges": 697,
+   "equal": true,
+   "tpy": 0.005637168884277344
+  }
+ ]
+}

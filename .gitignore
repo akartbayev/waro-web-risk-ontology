@@ -1,0 +1,4 @@
+__pycache__/
+src/data/
+src/work/
+*.pkl
